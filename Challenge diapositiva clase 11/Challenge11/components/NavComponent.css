@@ -1,0 +1,46 @@
+nav {
+    background-color: #0074D9;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Estilos para la lista de elementos de navegación */
+  ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para los elementos de la lista */
+  li {
+    margin: 0 10px;
+  }
+  
+  /* Estilos para los enlaces */
+  a {
+    text-decoration: none;
+    color: #ffdede;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  a:hover {
+    background-color: #555; 
+  }
+  
+  /* Estilos para el elemento .nav */
+  .nav {
+    background-color: #aaa;
+    text-align: center; /* Centrar el texto */
+    padding: 10px;
+    font-weight: bold;
+    color: #333; 
+  }
+  
+  
